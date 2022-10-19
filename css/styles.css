@@ -160,6 +160,22 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+ 
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Carousel End
+------------------------- */
 
 abbr[title],
 abbr[data-bs-original-title] {
