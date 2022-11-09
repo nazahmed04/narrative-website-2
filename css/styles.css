@@ -86,7 +86,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color:#a7bdc7;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -159,6 +159,11 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.carousel-heading {
+  font-family: Shrikhand;
+  font-weight: 400;
 }
  
 /* Carousel
@@ -6381,7 +6386,7 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
+  color: #fefefe;
   text-align: center;
 }
 
@@ -11552,7 +11557,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
   }
   #mainNav .nav-link {
     transition: none;
@@ -11563,16 +11568,16 @@ body {
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: ##000;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #d4c7b0;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #ffffff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #ffffff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11669,7 +11674,7 @@ masthead.heroimage {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  color:#eddbc0;
+  color:#d4c7b0;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
