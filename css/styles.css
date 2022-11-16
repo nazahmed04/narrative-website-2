@@ -11663,7 +11663,7 @@ body {
 }
 
 
-.masthead.heroimage {
+.masthead.heroimage1 {
   position: relative;
   width: 100%;
   height: auto;
@@ -11708,7 +11708,7 @@ body {
 
 
 masthead.heroimage {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/rome-homescreen.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/rome-homescreen.jpg");
   ;
 }
 
