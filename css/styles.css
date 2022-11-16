@@ -209,6 +209,50 @@ p {
 
 /* Featurettes End
 ------------------------- */
+/*Portfolio styling from Freelancer template*/
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: #a7bdc7;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .btn-close {
+  color: #a7bdc7;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-family: 'Shrikhand';
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-family: 'Shrikhand';
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+/*End of portfolio styling from Freelancer template*/
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -287,11 +331,10 @@ sup {
 }
 
 a {
-  color: #64a19d;
-  text-decoration: underline;
+  color: #a7bdc7;
 }
 a:hover {
-  color: #50817e;
+  color: #a7bdc7;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -361,7 +404,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color:#a7bdc7;
   text-align: left;
 }
 
