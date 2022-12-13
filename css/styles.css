@@ -136,6 +136,7 @@ h3, .h3 {
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
+    font-family: 'Shrikhand';
   }
 }
 
@@ -11786,9 +11787,8 @@ masthead.heroimage {
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
+  .projects-section .project-text 
+  
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
