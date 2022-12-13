@@ -98,7 +98,7 @@ hr {
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 hr:not([size]) {
@@ -8121,9 +8121,13 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-white {
+.bg-beige {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #d4c7b0;
+}
+
+.bg-white {
+  --bs-bg-opacity: 1;;
 }
 
 .bg-body {
