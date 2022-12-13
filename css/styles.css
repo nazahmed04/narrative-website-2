@@ -11803,6 +11803,7 @@ masthead.heroimage {
 /* Quote background */
 .bg-gradient-primary-to-secondary {
   background: linear-gradient(45deg,  #d4c7b0,  #eeeae5) !important;
+  font-family: "Shrikhand";
 }
 /* End of quote background */
 
