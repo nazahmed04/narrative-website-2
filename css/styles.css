@@ -12047,6 +12047,29 @@ blockquote {
   border: 0;
 }
 
+/* Text Banner*/
+
+.banner-text-heading {
+  color:#d4c7b0;
+  font-family: "Shrikhand";
+  text-transform: lowercase;
+}
+
+.banner-heading-background {
+  background-color: #ffffff;
+}
+
+.banner-divider {
+  color:#d4c7b0;
+}
+
+.banner-paragraph {
+  color:#a7bdc7;
+  font-size: small;
+}
+
+/* End of Text Banner*/
+
 .contact-section {
   padding-top: 5rem;
 }
